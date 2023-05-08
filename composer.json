@@ -1,0 +1,26 @@
+{
+    "name": "guillermo-rod/livewire-js-components",
+    "description": "Javascript components with alpinejs for livewire",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GuillermoRod\\LivewireJsComponents\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Guillermo Rodriguez",
+            "email": "guillermo.rodriguez.dev@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GuillermoRod\\LivewireJsComponents\\ServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {}
+}
